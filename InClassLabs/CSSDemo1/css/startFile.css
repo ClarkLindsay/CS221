@@ -1,0 +1,39 @@
+body {
+	background-image:url('cow2.png');
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+#one {
+	color:red;
+	border:thick solid  blue;
+	margin:auto;
+	padding:50px;
+}
+
+#two {
+	color:blue;
+	border:thin dotted  red;
+}
+
+th, td {
+	border-style:dashed;
+	border-color:blue;
+	border-width:20px;
+	padding:50px;
+}
+
+p {
+	color:green;
+	font-size:12;
+	background:indianred;
+}
+
+h1 {
+	color:purple;
+	text-align:center;
+}
+
+ul > li:hover {
+	color:blue;
+}

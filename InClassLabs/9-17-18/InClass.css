@@ -1,0 +1,23 @@
+#one {
+  list-style-type: upper-roman;
+}
+
+#two {
+  list-style-type: upper-alpha;
+}
+
+#three {
+  list-style-type: decimal;
+}
+
+.pink {
+  color: pink;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}

@@ -1,0 +1,54 @@
+p {
+  visibility: hidden;
+}
+
+p :hover{
+  visibility: visible;
+}
+
+#one {
+  list-style-type: upper-roman;
+  margin: 100px;
+}
+
+#two {
+  list-style-type: upper-alpha;
+}
+
+#three {
+  list-style-type: decimal;
+}
+
+#four {
+  list-style-type: lower-alpha;
+}
+
+#table1 :focus{
+  border-style: dashed;
+  border-spacing: 500px;
+  border-left-color: lime;
+  border-right-color: blue;
+  border-top-color: red;
+  border-bottom-color: yellow;
+}
+
+.link :hover{
+  color: lime;
+  font-family: "Courier New", monospace;
+}
+
+.link :visited{
+  font-size: large;
+}
+
+.img {
+  padding: 10px;
+}
+
+.img :hover{
+  padding: 100px;
+}
+
+.img :first-of-type{
+  padding: 50px;
+}

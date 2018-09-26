@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+}
+
+p:hover {
+	text-indent: 100px;
+	text-transform: none;
+	vertical-align: middle;
+	text-shadow: 10px 10px 2px #660000;
+	text-decoration: line-through;
+	letter-spacing: 10px;
+	word-spacing: 10px;
+	line-height: 100px;
+}

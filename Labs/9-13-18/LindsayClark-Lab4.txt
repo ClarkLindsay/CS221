@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Lab 4</title></head>
+  <body>
+    <table border="5">
+      <tr>
+        <td>
+          <video controls autoplay width="1000" height="500">
+            <source src="SampleVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag
+          </video>
+        </td>
+      <tr>
+        <td>
+          <audio controls autoplay width="1000" height="10">
+            <source src="Sunburn.mp3" type="audio/mp3">
+            Your browser does not support the audio tag
+          </audio>
+        </td>
+    </tr>
+    <tr>
+      <td>
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/t-7mQhSZRgM?controls=0&loop=1"></iframe>
+      </td>
+    </tr>
+    </table>
+    <br>
+    <a href="https://www.youtube.com/watch?v=t-7mQhSZRgM" target="_blank"><img src="http://www.enworld.org/forum/attachment.php?attachmentid=62061&d=1402069890&stc=1"
+      alt="Pic Link" width="1000" height="500"/></a>
+  </body>
+</html>

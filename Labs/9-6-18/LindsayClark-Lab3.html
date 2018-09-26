@@ -1,0 +1,29 @@
+<html>
+	<head><title>Login Info</title></head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Login info</legend>
+				<table>
+					<tr>
+						<td align ="right"> Username:</td>
+						<td align ="left"> <input type="username" placeholder="your username" 
+						pattern="([A-Z]{1})+([A-Za-z]{3,})" size="25" required></td>
+					</tr>
+					<tr>
+						<td align ="right"> Password:</td>
+						<td align ="left"> <input type="password" placeholder="must be at least 8 characters" 
+						pattern="(.{8,})" size="25" required></td>
+					</tr>
+					<tr>
+						<td align ="right"> Email:</td>
+						<td align ="left"> <input type="text" placeholder="yourname@siu.edu" 
+						pattern="([a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]{1,})+(@)+([a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]{1,})+(\.)+([a-z]{2,3})" size="25" required></td>
+					</tr>
+				</table>
+				<input type="submit": name="LogIn" value="LogIn"/> 
+				<input type="reset" name="Reset" value="Reset"/>
+				<br>
+			</fieldset>
+	</body>
+</html>
